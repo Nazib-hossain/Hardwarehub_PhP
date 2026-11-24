@@ -94,7 +94,7 @@ a:hover {
 .brand-logo {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.65rem;
     font-size: 1.4rem;
     font-weight: 800;
     color: var(--text-primary);
@@ -102,9 +102,16 @@ a:hover {
     white-space: nowrap;
 }
 
-.logo-icon {
-    font-size: 1.6rem;
-    color: var(--primary);
+.brand-logo-img {
+    height: 44px;
+    width: auto;
+    border-radius: var(--radius-sm);
+    object-fit: contain;
+    transition: var(--transition);
+}
+
+.brand-logo:hover .brand-logo-img {
+    transform: scale(1.05);
 }
 
 .brand-logo .highlight {

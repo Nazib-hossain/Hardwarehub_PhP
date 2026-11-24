@@ -205,8 +205,8 @@ require_once __DIR__ . '/layout/header.php';
                     <input type="text" name="category" id="formCategory" required placeholder="Processors, Graphics Cards, etc.">
                 </div>
                 <div class="form-group">
-                    <label for="formPrice">Price ($ USD) *</label>
-                    <input type="number" name="price" id="formPrice" step="0.01" min="0" required placeholder="499.99">
+                    <label for="formPrice">Price (BDT) *</label>
+                    <input type="number" name="price" id="formPrice" step="0.01" min="0" required placeholder="49999.00">
                 </div>
             </div>
 

@@ -5,7 +5,7 @@
         <div class="container footer-container">
             <div class="footer-col brand-col">
                 <div class="brand-logo">
-                    <span class="logo-icon">⚡</span>
+                    <img src="public/images/logo.jpg" alt="HardwareHub Logo" class="brand-logo-img">
                     <span class="logo-text">Hardware<span class="highlight">Hub</span></span>
                 </div>
                 <p class="footer-desc">

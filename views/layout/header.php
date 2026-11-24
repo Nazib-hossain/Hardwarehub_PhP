@@ -26,7 +26,7 @@ $currentPage = $_GET['page'] ?? 'catalog';
     <header class="site-header">
         <div class="container nav-container">
             <a href="index.php?page=catalog" class="brand-logo">
-                <span class="logo-icon">⚡</span>
+                <img src="public/images/logo.jpg" alt="HardwareHub Logo" class="brand-logo-img">
                 <span class="logo-text">Hardware<span class="highlight">Hub</span></span>
             </a>
 

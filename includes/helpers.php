@@ -19,10 +19,10 @@ if (!function_exists('e')) {
 
 if (!function_exists('formatPrice')) {
     /**
-     * Format a numerical price into standard currency string
+     * Format a numerical price into standard BDT currency string
      */
     function formatPrice(float|int|string $price): string {
-        return '$' . number_format((float) $price, 2);
+        return 'BDT ' . number_format((float) $price, 2);
     }
 }
 
